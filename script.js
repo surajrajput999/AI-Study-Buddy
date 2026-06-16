@@ -10,7 +10,7 @@ async function askAI(endpoint) {
     
     try {
         // endpoint variable decide karega ki summarize karna hai ya flashcard banana hai
-        const response = await fetch(`http://127.0.0.1:5000/api/${endpoint}`, {
+       const response = await fetch(`/api/${endpoint}`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
