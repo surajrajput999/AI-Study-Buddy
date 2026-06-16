@@ -47,4 +47,8 @@ def flashcards():
         return jsonify({'result': f"Error calling Gemini AI: {str(e)}"})
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    # Cloud server dynamic port deta hai, isliye os se port read karenge
+    import os
+    port = int(os.environ.get("PORT", 5000))
+    # host='0.0.0.0' likhna zaroori hai taaki server bahar se accessible ho
+    app.run(host='0.0.0.0', port=port)
