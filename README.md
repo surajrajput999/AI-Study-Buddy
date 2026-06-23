@@ -4,6 +4,10 @@ An intelligent, interactive web application designed to help students and profes
 
 🌐 **Live Demo:** [https://notes-nexus-labs.vercel.app/](https://notes-nexus-labs.vercel.app/)
 
+## 📸 App Interface
+
+![Notes Nexus Labs Dashboard](./screenshot.png)
+
 ---
 
 ## 🚀 Features
